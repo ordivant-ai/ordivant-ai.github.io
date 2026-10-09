@@ -13,3 +13,9 @@ gh workflow run pages.yml --repo ordivant-ai/ordivant-ai.github.io
 ```
 
 MIT License. Application services are self-hosted separately from this static documentation site.
+
+維護變更須透過 Pull request，並通過文件建置檢查。PR 只驗證，不會發布；發布流程不寫入 `main`，版本記錄保存在網站的 `source-revision.txt`。
+
+Maintenance changes require a pull request and a passing documentation build. Pull requests validate without deploying. Publication does not write to `main`; the published site retains its revision in `source-revision.txt`.
+
+维护变更须通过 Pull request，并通过文档构建检查。PR 只验证，不会发布；发布流程不写入 `main`，版本记录保存在网站的 `source-revision.txt`。
